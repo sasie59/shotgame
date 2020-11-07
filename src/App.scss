@@ -1,0 +1,36 @@
+.center {
+  text-align: center;
+}
+.life {
+  font-size: 48px;
+  margin-top: 20px;
+}
+.score {
+  font-size: 48px;
+}
+.outside {
+  display: flex;
+  position: relative;
+  .frame {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+    border: 2px solid #aaa;
+  }
+  .dog {
+    left: 100%;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    animation-name: rToL;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes rToL {
+  from { left: 100%; }
+  to { left: -276px; }
+}
