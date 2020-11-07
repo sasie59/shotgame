@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shotgame/static/css/main.90a77a3f.chunk.css",
+    "main.js": "/shotgame/static/js/main.f06da192.chunk.js",
+    "main.js.map": "/shotgame/static/js/main.f06da192.chunk.js.map",
+    "runtime-main.js": "/shotgame/static/js/runtime-main.504c3dda.js",
+    "runtime-main.js.map": "/shotgame/static/js/runtime-main.504c3dda.js.map",
+    "static/js/2.e64cb8c5.chunk.js": "/shotgame/static/js/2.e64cb8c5.chunk.js",
+    "static/js/2.e64cb8c5.chunk.js.map": "/shotgame/static/js/2.e64cb8c5.chunk.js.map",
+    "static/js/3.fbad2e13.chunk.js": "/shotgame/static/js/3.fbad2e13.chunk.js",
+    "static/js/3.fbad2e13.chunk.js.map": "/shotgame/static/js/3.fbad2e13.chunk.js.map",
+    "index.html": "/shotgame/index.html",
+    "static/css/main.90a77a3f.chunk.css.map": "/shotgame/static/css/main.90a77a3f.chunk.css.map",
+    "static/js/2.e64cb8c5.chunk.js.LICENSE.txt": "/shotgame/static/js/2.e64cb8c5.chunk.js.LICENSE.txt",
+    "static/media/dog.be3575f4.jpeg": "/shotgame/static/media/dog.be3575f4.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.504c3dda.js",
+    "static/js/2.e64cb8c5.chunk.js",
+    "static/css/main.90a77a3f.chunk.css",
+    "static/js/main.f06da192.chunk.js"
+  ]
+}
