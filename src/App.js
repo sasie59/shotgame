@@ -13,12 +13,14 @@ export default class App extends Component {
 
   handleClick = (e) => {
     console.warn(e.target.name);
-    if (e.target.name ==='dog') {
+    console.warn(this.state.life);
+    console.warn(this.state.score);
+    if (e.target.name === 'dog') {
       this.setState({
         score: this.state.score + 1
       });
     } else {
-      if(this.state.life === 1) {
+      if (this.state.life === 1) {
         alert('game over');
         this.setState({
           life: 3,
@@ -29,7 +31,7 @@ export default class App extends Component {
           life: this.state.life - 1
         });
       }
-    } 
+    }
   };
 
 
@@ -46,7 +48,7 @@ export default class App extends Component {
               name="dog"
               className="dog"
               style={{
-                animationDuration: `${4 / (score + 1)}s`,
+                animationDuration: `${4 / (score + 0.3)}s`,
               }}
             />
           </div>
